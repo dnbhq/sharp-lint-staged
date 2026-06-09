@@ -1,6 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@dnbhq/tsconfig/cli",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "allowImportingTsExtensions": false
+  },
   "include": [
     "src/**/*.ts"
   ],
