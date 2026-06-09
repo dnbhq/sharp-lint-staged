@@ -6,10 +6,10 @@ import type { Config } from 'release-it';
 type PackageJsonRepository =
   | string
   | {
-      type?: string;
-      url?: string;
-      directory?: string;
-    };
+    type?: string;
+    url?: string;
+    directory?: string;
+  };
 
 interface PackageJson {
   repository?: PackageJsonRepository;
@@ -183,7 +183,7 @@ const config = {
     release: true,
     releaseName: 'v${version}',
     skipChecks: true,
-    tokenRef: 'GITHUB_TOKEN_CONTENT_PRIVATE',
+    tokenRef: 'GITHUB_DNBHQ_TOKEN_ADMIN_PRIVATE',
   },
   plugins: {
     '@release-it/conventional-changelog': {
