@@ -17,7 +17,7 @@ Raster formats (GIF, PNG, JPEG) are handled by sharp's modern libvips-based enco
 ## Installation
 
 ```sh
-npm i --save-dev @davidsneighbour/sharp-lint-staged
+npm i --save-dev @dnbhq/sharp-lint-staged
 ```
 
 Requires Node.js 22 or newer.
@@ -37,7 +37,7 @@ On commit, every staged image matching the glob is optimised in place. `lint-sta
 You can also call the API directly:
 
 ```ts
-import { optimizeFile } from '@davidsneighbour/sharp-lint-staged';
+import { optimizeFile } from '@dnbhq/sharp-lint-staged';
 
 const wasRewritten = await optimizeFile('assets/logo.png');
 ```
@@ -180,7 +180,7 @@ Because sharp re-encodes raster images rather than performing the byte-level los
 
    ```sh
    npm rm @davidsneighbour/imagemin-lint-staged
-   npm i -D @davidsneighbour/sharp-lint-staged
+   npm i -D @dnbhq/sharp-lint-staged
    ```
 
 2. Update the lint-staged command from `imagemin-lint-staged` to `sharp-lint-staged`.
@@ -204,7 +204,7 @@ npm test        # run the vitest suite against real fixtures
 
 [lint-staged]: https://github.com/lint-staged/lint-staged
 [cosmiconfig]: https://github.com/cosmiconfig/cosmiconfig
-[npm-image]: https://img.shields.io/npm/v/@davidsneighbour/sharp-lint-staged.svg?style=flat-square
-[npm-url]: https://www.npmjs.org/package/@davidsneighbour/sharp-lint-staged
-[github-workflows-pr-image]: https://github.com/davidsneighbour/sharp-lint-staged/actions/workflows/pr.yml/badge.svg
-[github-workflows-pr-url]: https://github.com/davidsneighbour/sharp-lint-staged/actions/workflows/pr.yml
+[npm-image]: https://img.shields.io/npm/v/@dnbhq/sharp-lint-staged.svg?style=flat-square
+[npm-url]: https://www.npmjs.org/package/@dnbhq/sharp-lint-staged
+[github-workflows-pr-image]: https://github.com/dnbhq/sharp-lint-staged/actions/workflows/pr.yml/badge.svg
+[github-workflows-pr-url]: https://github.com/dnbhq/sharp-lint-staged/actions/workflows/pr.yml

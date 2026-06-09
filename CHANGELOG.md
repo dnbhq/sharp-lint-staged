@@ -2,7 +2,7 @@
 
 ## 1.0.0
 
-Initial release of `@davidsneighbour/sharp-lint-staged`, a sharp-powered
+Initial release of `@dnbhq/sharp-lint-staged`, a sharp-powered
 successor to [`@davidsneighbour/imagemin-lint-staged`](https://github.com/davidsneighbour/imagemin-lint-staged).
 
 ### Features

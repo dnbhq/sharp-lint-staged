@@ -1,28 +1,28 @@
 {
-  "name": "@davidsneighbour/sharp-lint-staged",
+  "name": "@dnbhq/sharp-lint-staged",
   "description": "sharp-powered image optimisation CLI designed for lint-staged usage with sensible defaults",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidsneighbour/sharp-lint-staged.git"
+    "url": "git+https://github.com/dnbhq/sharp-lint-staged.git"
   },
   "author": {
     "name": "Patrick Kollitsch",
-    "email": "patrick@davidsneighbour.com",
+    "email": "davidsneighbourdev+gh@gmail.com",
     "url": "https://github.com/davidsneighbour"
   },
   "maintainers": [
     {
-      "name": "davidsneighbour",
+      "name": "Patrick Kollitsch",
       "email": "davidsneighbourdev+gh@gmail.com",
       "url": "https://github.com/davidsneighbour"
     }
   ],
   "bugs": {
-    "url": "https://github.com/davidsneighbour/sharp-lint-staged/issues"
+    "url": "https://github.com/dnbhq/sharp-lint-staged/issues"
   },
-  "homepage": "https://github.com/davidsneighbour/sharp-lint-staged/",
+  "homepage": "https://github.com/dnbhq/sharp-lint-staged/",
   "keywords": [
     "sharp",
     "imagemin",
