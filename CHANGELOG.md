@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1](https://github.com/dnbhq/sharp-lint-staged/compare/v1.0.0...v1.0.1) (2026-06-09)
+
+### Build
+
+* **fix:** allow to create built code for the package ([ea17c68](https://github.com/dnbhq/sharp-lint-staged/commit/ea17c68b7b8db35e5bb88511f5eaaf97c51b3deb))
+
 ## 1.0.0
 
 Initial release of `@dnbhq/sharp-lint-staged`, a sharp-powered
