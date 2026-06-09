@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2](https://github.com/dnbhq/sharp-lint-staged/compare/v1.0.1...v1.0.2) (2026-06-09)
+
+### Build
+
+* **fix:** proper GH token ([58b4299](https://github.com/dnbhq/sharp-lint-staged/commit/58b42997381eaa68149711bb7431927183e846fe))
+
 ## [1.0.1](https://github.com/dnbhq/sharp-lint-staged/compare/v1.0.0...v1.0.1) (2026-06-09)
 
 ### Build

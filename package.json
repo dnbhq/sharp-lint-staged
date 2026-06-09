@@ -1,7 +1,7 @@
 {
   "name": "@dnbhq/sharp-lint-staged",
   "description": "sharp-powered image optimisation CLI designed for lint-staged usage with sensible defaults",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
