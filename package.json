@@ -39,6 +39,7 @@
     "svgo": "4.0.1"
   },
   "devDependencies": {
+    "@dnbhq/tsconfig": "0.1.6",
     "@release-it/conventional-changelog": "11.0.1",
     "@types/node": "25.9.2",
     "husky": "9.1.7",
