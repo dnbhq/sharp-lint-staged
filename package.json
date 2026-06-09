@@ -33,12 +33,12 @@
     "lint-staged"
   ],
   "dependencies": {
-    "@dnbhq/markdownlint-config": "0.2.7",
     "cosmiconfig": "9.0.2",
     "sharp": "0.34.5",
     "svgo": "4.0.1"
   },
   "devDependencies": {
+    "@dnbhq/markdownlint-config": "0.2.7",
     "@dnbhq/tsconfig": "0.1.6",
     "@release-it/conventional-changelog": "11.0.1",
     "@types/node": "25.9.2",
