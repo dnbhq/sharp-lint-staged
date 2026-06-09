@@ -1,0 +1,87 @@
+{
+  "name": "@davidsneighbour/sharp-lint-staged",
+  "version": "1.0.0",
+  "description": "sharp-powered image optimisation CLI designed for lint-staged usage with sensible defaults",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "davidsneighbour",
+      "email": "davidsneighbourdev+gh@gmail.com",
+      "url": "https://github.com/davidsneighbour"
+    }
+  ],
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davidsneighbour.com",
+    "url": "https://github.com/davidsneighbour"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsneighbour/sharp-lint-staged.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidsneighbour/sharp-lint-staged/issues"
+  },
+  "homepage": "https://github.com/davidsneighbour/sharp-lint-staged/",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "sharp-lint-staged": "dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "sharp",
+    "imagemin",
+    "CLI",
+    "git hook",
+    "compress images",
+    "image optimisation",
+    "lint-staged"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "release": "release-it --ci"
+  },
+  "lint-staged": {
+    "*.{png,jpeg,jpg,gif,svg}": [
+      "node ./dist/cli.js"
+    ],
+    "*.{ts,js,json,css,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "cosmiconfig": "9.0.2",
+    "sharp": "0.34.5",
+    "svgo": "4.0.1"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "11.0.1",
+    "@types/node": "25.9.2",
+    "husky": "9.1.7",
+    "lint-staged": "17.0.7",
+    "prettier": "3.8.3",
+    "release-it": "20.2.0",
+    "rimraf": "6.1.3",
+    "typescript": "6.0.3",
+    "vitest": "4.1.8"
+  }
+}

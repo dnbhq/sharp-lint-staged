@@ -1,0 +1,26 @@
+# Editor
+*.swp
+.DS_Store
+.claude
+.codex
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage / instrumentation
+coverage
+lib-cov
+
+# Build output
+dist
+build/Release
+
+# Dependencies
+node_modules
+.lock-wscript
