@@ -35,7 +35,7 @@
   "dependencies": {
     "cosmiconfig": "9.0.2",
     "sharp": "0.34.5",
-    "svgo": "4.0.1"
+    "svgo": "4.0.2"
   },
   "devDependencies": {
     "@dnbhq/markdownlint-config": "0.2.7",
